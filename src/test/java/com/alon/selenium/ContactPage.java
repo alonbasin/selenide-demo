@@ -7,13 +7,14 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class ContactPage {
 
-    private final SelenideElement submitButton = $("a[aria-label='submit']");
-    private final SelenideElement foreNameError = $("#forename-err");
-    private final SelenideElement emailError = $("#email-err");
-    private final SelenideElement messageError = $("#message-err");
-    private final SelenideElement foreNameField = $("#forename");
-    private final SelenideElement emailField = $("#email");
-    private final SelenideElement messageField = $("#message");
+    private final SelenideElement
+            submitButton = $("a[aria-label='submit']"),
+            foreNameError = $("#forename-err"),
+            emailError = $("#email-err"),
+            messageError = $("#message-err"),
+            foreNameField = $("#forename"),
+            emailField = $("#email"),
+            messageField = $("#message");
 
 
     public ContactPage clickSubmit() {
