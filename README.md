@@ -1,0 +1,1 @@
+To run the tests: ```./gradlew clean test```
